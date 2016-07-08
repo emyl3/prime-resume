@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://dl.dropboxusercontent.com/u/2587043/Prime%20App/IMG_1155.JPG");
+    background-size: 100% auto;
+    font-family: Optima, Helvetica, sans-serif; 
+}
+
+h1, h2 {
+    margin-bottom:0.4em;
+    color: #d6e5f5;
+}
+
+h3, p, a, ul{
+    margin-top:0.1em; 
+    margin-bottom:0.1em;
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    
+} 
+
+#header {
+    background-image: url("https://dl.dropboxusercontent.com/u/2587043/Prime%20App/Banner-PR-01.svg");
+    margin: 5%;
+}
+
+#header-photo {
+    height: 9em;
+    border: 0.4em solid #ffffff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+#header h1 {
+    margin-left: 10%; 
+}
+#header p, a {
+    color: #ffffff;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.exp {
+    background-image: url("https://dl.dropboxusercontent.com/u/2587043/Prime%20App/Background-PR-02.svg");
+    margin: 5%;
+    padding: 5%;
+}
+
+.exp td {
+    padding: 2%;
+    vertical-align: top;
+}
+
+#tech img{
+    height: 1.25em;
+    padding-top: .5em;
+}
