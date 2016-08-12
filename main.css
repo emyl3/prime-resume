@@ -12,6 +12,17 @@ html {
 body {
     background-color: #f1f2ec;
     width: 100%;
+    overflow: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #a4a59f;
 }
 
 nav {
@@ -20,25 +31,14 @@ nav {
     font: 1.5em 'Fjalla One', sans-serif;
     color: #ffffff;
     list-style-type: none;
-    overflow: auto;
     text-align: right;
 }
 
 
-.navbar li {
+nav li {
     display: inline-block;
     margin: 0% 3% 0% 0%;
-    text-align: right;
     padding: 2.5% 4% 2.5% 0%;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.navbar a:hover {
-    color: #a4a59f;
 }
 
 header {
@@ -48,36 +48,25 @@ header {
     color: #ffffff;
     overflow: auto;
     padding-bottom: 5%;
+    text-align: center;
 }
 
 header h1 {
     margin-top: 40%; 
     font-size: 3em;
-    text-align: center;
     padding-bottom: 2%;
 }
 
 header h2 {
-    text-align: center;
     font-size: 1.5em;
 }
 
 #introduction {
-    text-align: center;
-    font: .8em 'Roboto', sans-serif;
+    font: 1em 'Roboto', sans-serif;
     padding: 1%;
     border-top: .2em dashed #ffffff;
     width: 50%;
     margin: 2% auto 0% auto;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a:hover {
-    color: #d5d9e2;
 }
 
 #photocredit {
@@ -86,11 +75,9 @@ a:hover {
     padding: 2.5% 2.5% 0% 0%;
 }
 
-#experience {
-    background-color: #0a3759;
-    overflow: auto;
-    color: #ffffff;
+section {
     padding: 3%;
+    color: #ffffff;
 }
 
 section h1{
@@ -100,14 +87,23 @@ section h1{
     border-bottom:.1em dashed #ffffff;
 }
 
-#experience table {
+.experience {
+    background-color: #0a3759;
+}
+
+.experience table {
     width: 100%;
-    margin: 0% auto 0% auto;
+    margin: 0% auto;
+}
+
+.experience ul {
+    padding: 1% 1% 5% 7%;
+    font-size: 0.9em;
 }
 
 .title_info {
     width: 65%;
-    vertical-align: top;
+    vertical-align: text-top;
 }
 
 .date_place {
@@ -116,54 +112,43 @@ section h1{
     text-align: right;
 }
 
-#experience ul {
-    padding: 1% 1% 5% 7%;
-    font-size: 0.9em;
-
-}
-
-#experience h2 {
+.experience h2 {
     font-size: 1.2em;
     font-weight: 700;
 }
 
-#experience h3 {
+.experience h3 {
     font-size: .9em;
     font-weight: 700;
     padding: 3% 0% 1% 0%;
 }
 
-#experience p {
+.experience p {
     font-size: .9em;
-    font-weight: 700;
 }
 
-#education {
+#education li {
     list-style-type: none;
 }
 
-#portfolio {
+.portfolio {
     background-color: #467393;
-    overflow: auto;
     color: #ffffff;
-    padding: 3%;
     text-align: center;
 }
-
   
-figure {
-    display: inline-block;
+.portfolio figure {
     width: 35%;
     text-align: center;
+    display: inline-block;
 }
 
-figure img {
-    display: inline-block;
+.portfolio figure img {
     width:80%;
     padding: 0% 10%;
 }
 
-figcaption {
+.portfolio figcaption {
     display: inline-block;
     width: 80%;
     font-size: .7em;
@@ -175,7 +160,4 @@ footer {
     padding: 3%;
     text-align: right;
     font: 0.7em 'Fjalla One', sans-serif;
-    overflow: auto;
-    color: #ffffff;
-    
 }
